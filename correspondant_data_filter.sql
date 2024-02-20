@@ -1,0 +1,16 @@
+create table if not exists correspondant_data_filter(
+id integer not null,
+owner_brl varchar(255) null,
+filter1_name varchar(255) null,
+filter1_applicable char null,
+filter1_description varchar(255) null,
+filter1_value varchar(255) null,
+filter2_name varchar(255) null,
+filter2_appicable char null,
+filter2_description varchar(255) null,
+filter2_value varchar(255) null,
+active_filter varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint correspondant_data_filter_pk primary key(id));

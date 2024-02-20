@@ -1,0 +1,16 @@
+create table if not exists correspondant_data_brl(
+id integer not null,
+owner_brl varchar(255) null,
+brl_location varchar(255) null,
+brl_account_number integer null,
+holder_brl varchar(255) null,
+holder_account_number integer null,
+preferred_currency varchar(255) null,
+further_brl varchar(255) null,
+further_account_number varchar(255) null,
+effective_date varchar(255) null,
+brl_filter varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint correspondant_data_brl_pk primary key(id));
